@@ -78,8 +78,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'clpcoin_db',
-        'USER': 'root',
-        'PASSWORD': 'admin',
+        'USER': 'clpcoin',
+        'PASSWORD': 'Clpcoin.vn123',
         'HOST': '',
         'PORT': '',
     }
