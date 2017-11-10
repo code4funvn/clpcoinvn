@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: black;
+    background-image: url("/static/clpcoin/logo/bitcoin.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 60rem;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.content-01 {
+    padding-top: 40px;
+}
+
+.content-02 {
+    padding-top: 50px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+p.title-header {
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+}
+
+p.title-small-01-01 {
+    font-size: 22px;
+    color: blue;
+    background-color: rgba(255, 255, 255, 0.71);
+}
+
+p.title-small-01-02 {
+    padding-left: 203px;
+    font-size: 22px;
+    color: blue;
+    background-color: rgba(255, 255, 255, 0.71);
+}
+
+p.title-header-02 {
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+
+p.title-small-02-01 {
+    font-size: 30px;
+    color: blue;
+    background-color: rgba(255, 255, 255, 0.71);
+}
+
+p.title-small-02-02 {
+    padding-left: 316px;
+    font-size: 30px;
+    color: blue;
+    background-color: rgba(255, 255, 255, 0.71);
+}
