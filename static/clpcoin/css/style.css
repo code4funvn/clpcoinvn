@@ -11,7 +11,7 @@ html {
 
 body {
     background-color: black;
-    background-image: url("/static/clpcoin/logo/bitcoin.jpg");
+    background-image: url("/static/clpcoin/logo/bitcoin.jpeg");
     background-position: center center;
     background-repeat: no-repeat;
     display: flex;

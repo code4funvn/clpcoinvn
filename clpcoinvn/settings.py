@@ -19,7 +19,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ['SECRET_KEY']
+SECRET_KEY = 'i71qdf*!ibm39$3(rdd^zv7amsfio&lucn8bk#%7c68(&59viq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -74,12 +74,23 @@ WSGI_APPLICATION = 'clpcoinvn.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'clpcoin_db',
+#         'USER': 'clpcoin',
+#         'PASSWORD': 'Clpcoin.vn123',
+#         'HOST': '',
+#         'PORT': '',
+#     }
+# }
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'clpcoin_db',
-        'USER': 'clpcoin',
-        'PASSWORD': 'Clpcoin.vn123',
+        'USER': 'root',
+        'PASSWORD': 'admin',
         'HOST': '',
         'PORT': '',
     }
