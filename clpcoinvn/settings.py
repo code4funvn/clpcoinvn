@@ -74,16 +74,16 @@ WSGI_APPLICATION = 'clpcoinvn.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'clpcoin_db',
-#         'USER': 'clpcoin',
-#         'PASSWORD': 'Clpcoin.vn123',
-#         'HOST': '',
-#         'PORT': '',
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'clpcoin_db',
+        'USER': 'clpcoin',
+        'PASSWORD': 'Clpcoin.vn123',
+        'HOST': '',
+        'PORT': '',
+    }
+}
 
 DATABASES = {
     'default': {
