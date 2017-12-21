@@ -8,5 +8,4 @@ globalfan 80
 globalcore 1400
 globalmem 4900
 autoreboot 3
-custompanel mtuyen5123456
 lockscreen enabled
