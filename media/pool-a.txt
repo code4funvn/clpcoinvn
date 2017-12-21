@@ -1,0 +1,12 @@
+globalminer ethminer
+maxgputemp 66
+stratumproxy enabled
+proxywallet 0xc75e663c93a5fed4bb155b854adbb0ce1ef6faec
+proxypool1 eu1-etc.ethermine.org:4444
+flags — cl-global-work 8192 — farm-recheck 200
+globalfan 80
+globalcore 1400
+globalmem 4900
+autoreboot 3
+custompanel tuyenn5123456
+lockscreen enabled
