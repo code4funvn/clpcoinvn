@@ -4,9 +4,15 @@ stratumproxy enabled
 proxywallet 0xc75e663c93a5fed4bb155b854adbb0ce1ef6faec
 proxypool1 eu1-etc.ethermine.org:4444
 proxypool2 us1-etc.ethermine.org:4444
+poolpass1 x
+poolpass2 x
+poolemail mtuyen.bk@gmail.com
 flags --cl-global-work 8192 --farm-recheck 200
+globalcore -250
+globalmem +650
 globalfan 80
-globalcore 1400
-globalmem 4900
-autoreboot 3
+globalpowertddune 80
+autoreboot 10
+custompanel mtuyen9123456
 lockscreen enabled
+globaldesktop disabled
