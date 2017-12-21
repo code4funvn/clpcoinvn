@@ -8,9 +8,9 @@ poolpass1 x
 poolpass2 x
 poolemail mtuyen.bk@gmail.com
 flags --cl-global-work 8192 --farm-recheck 200
-globalcore -250
-globalmem +650
-globalfan 80
+globalcore 1400
+globalmem 4900
+globalfan 90
 globalpowertddune 80
 autoreboot 10
 custompanel mtuyen9123456
