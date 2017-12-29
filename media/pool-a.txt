@@ -1,17 +1,19 @@
+#============================================================
+#RIG ETC
 globalminer ethminer
-maxgputemp 66
+maxgputemp 90
 stratumproxy enabled
 proxywallet 0xc75e663c93a5fed4bb155b854adbb0ce1ef6faec
 proxypool1 eu1-etc.ethermine.org:4444
 proxypool2 us1-etc.ethermine.org:4444
-poolpass1 x
-poolpass2 x
+#poolpass1 x
+#poolpass2 x
 poolemail mtuyen.bk@gmail.com
 flags --cl-global-work 8192 --farm-recheck 200
-globalcore 1400
-globalmem 4900
-globalfan 90
-globalpowertddune 110
+globalcore -300
+globalmem 4600
+globalfan 80
+globalpowertune 80
 autoreboot 10
 custompanel mtuyen9123456
 lockscreen enabled
